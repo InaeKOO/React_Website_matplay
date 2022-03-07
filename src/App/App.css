@@ -1,0 +1,13 @@
+.pageName {
+  padding: .66rem 0;
+  text-align: center;
+  background-color: #d4b93e;
+  color: white;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+.pageName:hover {
+  cursor: pointer;
+}

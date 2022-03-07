@@ -1,0 +1,18 @@
+.introductionBar {
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.introductionBar hr{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.introductionBar-teamName {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
+}

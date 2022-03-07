@@ -1,0 +1,92 @@
+.introductionBar {
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.introductionBar hr{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.introductionBar-teamName {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    /* background-color: gray; */
+}
+
+.matplay-logo{
+    /* padding-top: 10px; */
+    height: 40px;
+    margin-top: 6px;
+    object-fit: contain;
+    margin-left: 20px;
+    /* background-color: gray; */
+}
+
+.titleBar {
+    background-color: #ffbe31;
+    padding-bottom: 0.5rem;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    /* background-color: gray; */
+}
+
+.logo h1 {
+    color: white;
+    margin-left: 0.5rem;
+    margin-top: 7px;
+    /* background-color: gray; */
+}
+
+/* .menu button {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 0.5rem;
+    padding: 6px 15px;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #EDE436;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0.05rem solid;
+} */
+
+.menu {
+    display: flex;
+    margin-top: 0.1rem;
+    /* background-color: gray; */
+}
+
+.menu p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    color:white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.menu p:hover {
+    color: rgb(255, 225, 170);
+    cursor: pointer;
+}
+
+.bar_login{
+    position: static;
+    /* top: 1px; */
+    margin-top: 2px;
+}
+
+/* .login-button > .username, .login-button > .MainScreen__button {
+    position: static;
+} */

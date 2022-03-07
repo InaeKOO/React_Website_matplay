@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.MainScreen{
+    position: relative;
+    height: 100%;
+    background: url('https://eatforum.org/content/uploads/2018/05/table_with_food_top_view_900x700.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.MainScreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(100,100,100,0.1);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.6) 10%,
+        rgba(0,0,0,0.3) 60%,
+        rgba(0,0,0,0.6) 100%
+    );
+}
+
+.MainScreen__body a {
+    color: yellow;
+}
+
+.MainScreen__body > h1 {
+    font-size: 4.125rem;
+    margin-bottom: 10px;
+    /* text-shadow: 0.01rem 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.MainScreen__body > h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    /* text-shadow: 0.05rem 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.MainScreen__body > h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    /* text-shadow: 0.05rem 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.MainScreen__body{
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.MainScreen__logo{
+    position: absolute;
+    padding-top: 10px;
+    
+    width: 120px;
+    object-fit: contain;
+    /* padding-left: 20px; */
+}
+
+.main-logo {
+    padding-left: 20px;
+}
+
+/* .MainScreen__button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #EDE436;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0.05 solid
+} */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    /* position: fixed; */
+    /* left: 38%; */
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #EDE436;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0.1 solid;
+    cursor: pointer;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+/* 
+.button2{
+    position: fixed;
+    left: 51%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #EDE436;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0.1 solid;
+    cursor: pointer;
+} */
+
+.MainScreen__input  > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+    margin-bottom: 10px;
+    /* margin-right: 10px; */
+    padding-top: 0.68rem;
+}
+
+.MainScreen__input{
+    margin: 20px;
+}
+
+.manual_button{
+    padding: 15px;
+    width: 390px;
+    min-width: 80px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: gray;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0.1 solid;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    justify-self: center;
+}
+
+.main_login{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+/* .username{
+    position: absolute;
+    right: 120px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+} */

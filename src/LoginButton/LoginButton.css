@@ -1,0 +1,26 @@
+.username{
+    right: 120px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.MainScreen__button{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 0.5rem;
+    padding: 6px 15px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #EDE436;
+    font-weight: 800;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0.05rem solid;
+    width: 80px;
+}

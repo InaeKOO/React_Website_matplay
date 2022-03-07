@@ -1,0 +1,121 @@
+.recommendation-title, .contentTitle, .morePlaylistTitle, .aboutRestaurantContent-title {
+    margin: 0rem;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+
+.morePlaylistTitle:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.chooseGroupContent h1 {
+    text-align: center;
+}
+
+.chooseGroupContent-button, .checkTastesContent-button {
+    text-align: center;
+}
+
+.chooseGroupContent {
+    padding-bottom: 0.5rem;
+}
+
+.button-1 {
+  background-color: #EDE436;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color:rgb(230, 198, 112);
+}
+
+.aboutRestaurantContent-title {
+    text-align: center;
+}
+
+.checkTastesContent {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FFFFFF;
+}
+
+.taste-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.manualContent {
+    text-align: center;
+}
+
+.manualContent h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.manualContent h2, .manualContent p, .manualContent img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.manualContent img {
+    width: 60%;
+}
+
+.manualContent p {
+    line-height: 1.5rem;
+}
+
+.manualContent hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 3px;
+    background-color: rgb(231, 231, 0);
+    border: 0;
+}
+
+.manualContent-title {
+    background-color: rgb(226, 209, 132);
+    padding-bottom: 1rem;
+}
+
+.manualContent-title > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.manualContent-title > a > h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+}
+
+.manualContent video {
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
